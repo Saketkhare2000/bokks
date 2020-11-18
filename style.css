@@ -107,6 +107,15 @@
 .text-muted{
   margin-bottom: 0px !important;
 }
+.span-text{
+  text-align: center;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.span-text:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
 @media only screen and (max-width: 992px) {
   .nav-extra {
     flex-direction: row !important;
