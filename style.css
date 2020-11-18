@@ -32,6 +32,10 @@
   font-weight: 500;
   font-size: calc(1.2rem + 0.1vw);
 }
+.carousel-slider {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.13);
+  border-radius: 19px;
+}
 @media only screen and (min-width: 992px) {
   .search-box {
     width: 618px;
@@ -75,9 +79,33 @@
   border-radius: 6px;
   color: white;
 }
-.carousel-slider {
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.13);
-  border-radius: 19px;
+
+.img-container {
+  width: 200px;
+  margin: 1rem 1.2rem;
+  padding: 1.5rem 1rem;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid rgba(0, 0, 0, 0.116);
+  border-radius: 7px;
+}
+.img-container h4 {
+  margin: 0.5rem 0rem;
+}
+.img-container:hover{
+  text-decoration: underline;
+}
+.caro-img {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+.img-container:hover {
+  box-shadow: 1px 6px 8px 3px rgba(0, 0, 0, 0.29);
+  border: none;
+  transform: scale(1.05);
+}
+.text-muted{
+  margin-bottom: 0px !important;
 }
 @media only screen and (max-width: 992px) {
   .nav-extra {
