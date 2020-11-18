@@ -28,6 +28,10 @@
 .input-group {
   width: 500px;
 }
+.carousel-text {
+  font-weight: 500;
+  font-size: calc(1.2rem + 0.1vw);
+}
 @media only screen and (min-width: 992px) {
   .search-box {
     width: 618px;
@@ -44,36 +48,79 @@
   right: 5%;
   cursor: pointer;
 }
-.language-link{
+.language-link {
   font-weight: 700;
   font-size: 18px;
   opacity: 50%;
   font-family: 'Nunito', sans-serif;
 }
-.language-link:hover{
+.language-link:hover {
   color: black;
   opacity: 50%;
 }
-@media only screen and (max-width:992px){
-  .nav-extra{
+.carousel {
+  background: #fffcde;
+}
+.heading-text {
+  color: #4658ff;
+  font-weight: 700;
+}
+.cta-btn {
+  background: #5465ff;
+  border-radius: 6px;
+  color: white;
+}
+.cta-btn:hover{
+  background: #959fff;
+  border-radius: 6px;
+ color: white;
+}
+@media only screen and (max-width: 992px) {
+  .nav-extra {
     flex-direction: row !important;
     justify-content: space-evenly;
     align-items: center;
-
+  }
+  .illustraion-img {
+    width: 45%;
+  }
+  .carousel-text {
+    font-size: calc(1rem + 0.1vw);
   }
 }
 @media only screen and (max-width: 768px) {
   .input-box {
     width: 100%;
   }
+  .illustraion-img {
+    width: 50%;
+  }
+  .heading-text {
+    font-size: calc(0.99rem + 2.1vw);
+  }
+  .carousel-text {
+    font-size: calc(0.8rem + 0.1vw);
+  }
 }
 @media only screen and (max-width: 576px) {
   .input-box {
     width: 100%;
   }
+  .carousel-text {
+    font-size: calc(0.6rem + 0.1vw);
+  }
+  .cta-btn {
+    /* width: 3.5rem;
+    border-radius: 6px;
+    color: white; */
+    font-size: 0.8rem;
+  }
 }
 @media only screen and (max-width: 320px) {
   .input-box {
     font-size: 0.9rem;
+  }
+  .illustraion-img {
+    display: none;
   }
 }
