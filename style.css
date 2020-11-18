@@ -70,10 +70,14 @@
   border-radius: 6px;
   color: white;
 }
-.cta-btn:hover{
+.cta-btn:hover {
   background: #959fff;
   border-radius: 6px;
- color: white;
+  color: white;
+}
+.carousel-slider {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.13);
+  border-radius: 19px;
 }
 @media only screen and (max-width: 992px) {
   .nav-extra {
